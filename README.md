@@ -1,1 +1,1 @@
-# guides
+This a collection of guides
