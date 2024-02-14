@@ -3,7 +3,7 @@
 This is a short and practical guide on how to run a Rocket Pool (RP) node behind the Great Firewall ([GFW](https://en.wikipedia.org/wiki/Great_Firewall)).  
   
 Example validator ran during the test: https://holesky.beaconcha.in/validator/1566743  
-(Please ignore the periods when it missed attestations due to me testing different clients, forgetting to start the service or my account ran out of fund...)  
+(Please ignore the periods when it missed attestations due to me testing different clients, forgetting to start the service or my account balance running low...)  
 
 \* *This guide is based on standard Docker mode.*  
 \**  *This guide is written based on Holešky testnet.*  
