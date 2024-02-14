@@ -1,8 +1,9 @@
 ## Running a Rocket Pool node behind GFW (China)
+*Chinese version is here: [中文版](https://github.com/atomicwhale/guides/blob/main/NodeBehindGFW-CN.md)*
 This is a short and practical guide on how to run a Rocket Pool (RP) node behind the Great Firewall ([GFW](https://en.wikipedia.org/wiki/Great_Firewall)).  
   
 Example validator ran during the test: https://holesky.beaconcha.in/validator/1566743  
-(Please ignore the first two periods when it missed attestations due to me testing different clients and/or forgetting to start the service.)  
+(Please ignore the periods when it missed attestations due to me testing different clients, forgetting to start the service or my account ran out of fund...)  
 
 \* *This guide is based on standard Docker mode.*  
 \**  *This guide is written based on Holešky testnet.*  
