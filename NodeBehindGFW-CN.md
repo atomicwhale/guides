@@ -21,7 +21,7 @@
 
 ---
 ### 1. 手动安装 Smartnode
-首先确保你的节点服务器已经应用了安全策略，参考RP官方文档：Secure the node，或网上现有教程。  
+首先确保你的节点服务器已经做好了安全防护措施，参考RP官方文档：Secure the node，或网上现有教程。  
 第一步，使用一个Github镜像(kkgithub)来下载RP smartnode (cli):  
 `wget https://kkgithub.com/rocket-pool/smartnode-install/releases/latest/download/rocketpool-cli-linux-amd64 -O ~/bin/rocketpool`  
   
