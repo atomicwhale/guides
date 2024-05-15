@@ -44,19 +44,20 @@
 \*  *__kgithub/kkgithub__ 是一个github 镜像/代理 [GitHub网址](https://github.com/kgithub666/kgithub). 如果觉得它有用，可以考虑支持一下项目方/作者 [About page](https://help.kkgithub.com/donate/).*
 
 ---
-### 2. Configure mirrors for Docker Hub
-Go through the smartnode configuration first  
+### 2. 配置Docker Hub镜像
+首先请完成Rocketpool Smartnode的初始设置  
 `rocketpool s c`  
   
-Save and exiting the config, for a quick trial, you can let the smartnode start the service, or manually start it:   
+保存设置并退出
+在这里你可以先试着运行一下smartnode，可以选择自动启动Smartnode，或者手动启动smartnode服务:   
 `rockerpool s s`  
-If it runs and you can see all the sevices started sucessfully, you can skip the rest of the guide and open your \<insert drink of choice\> <s>beer/horse piss</s> and celebrate.  
-If it fails, it is most likely becasue Docker Hub (hub.docker.com) is blocked by GFW.  
+如果一切运行顺利，服务启动成功，那恭喜你，Rocketpool Smartnode已经可以正常运行，你不需要教程以下的内容了。  
+如果启动失败，或者下载进度停滞不前，那大概率是因为Docker Hub (hub.docker.com)被墙.  
   
-You can get around by using a docker hub mirror:  
+这时你需要配置一个docker hub镜像。编辑Docker设置文件:  
 `sudo nano /etc/docker/daemon.json`  
 
-Add the following mirrors to docker configuration file:
+讲以下镜像加入到配置文件中:
 ```
 {
     "registry-mirrors": [
@@ -68,10 +69,12 @@ Add the following mirrors to docker configuration file:
 }
 ```
 
-Restart docker:
+重启Docker服务:
 `sudo systemctl restart docker`  
 
-Try to start the service again `rockerpool s s` and hopefully it should run this time.  
+这是再次试着启动Rocketpool Smartnode
+`rockerpool s s`
+and hopefully it should run this time.  
   
 ---
 --by atomicwhale.eth
