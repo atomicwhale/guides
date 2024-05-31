@@ -32,7 +32,7 @@
 `nano install.sh`
   
 用镜像网址替换其中Github网址(此教程编写时， RP smartnode v1.11.7，Github网址位于安装脚本117-119行).  
-找到其中以`PACKAGE_URL=...`起头的两行, 替换掉网址后这两行应该是这样的:  
+找到其中以`PACKAGE_URL=...`起头的两行, 修改github网址。修改后这两行应该是这样:  
 `   PACKAGE_URL="https://kkgithub.com/...`
   
 保存脚本并退出 (`Ctrl+O` 然后 `Ctrl+X`).  
