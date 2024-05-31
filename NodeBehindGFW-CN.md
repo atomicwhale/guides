@@ -1,5 +1,5 @@
 ## 如何在墙内安装运行Rocket Pool(以太坊)节点
-
+*(English version is here: [英文版](https://github.com/atomicwhale/guides/blob/main/NodeBehindGFW.md))*  
 这是一篇简短的实用指南，简述如何在防火长城（GFW）后面运行一个以太坊节点火箭池（Rocket pool）节点。
 
 这是作者在测试期间运行的验证器Validator：https://holesky.beaconcha.in/validator/1566743 （请忽略其中由于测试不同的客户端、服务停机或账户余额不足暂停的几段时间…）  
