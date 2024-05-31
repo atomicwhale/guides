@@ -57,7 +57,7 @@
 这时你需要配置一个docker hub镜像。编辑Docker设置文件:  
 `sudo nano /etc/docker/daemon.json`  
 
-讲以下镜像加入到配置文件中:
+将以下镜像加入到配置文件中:
 ```
 {
     "registry-mirrors": [
