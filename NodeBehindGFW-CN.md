@@ -1,6 +1,4 @@
-## 如何在墙内安装运行Rocket Pool节点
-
-# Work in progress. Please check back later.  
+## 如何在墙内安装运行Rocket Pool(以太坊)节点
 
 这是一篇简短的实用指南，简述如何在防火长城（GFW）后面运行一个以太坊节点火箭池（Rocket pool）节点。
 
