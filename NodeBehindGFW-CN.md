@@ -74,7 +74,7 @@
 
 这是再次试着启动Rocketpool Smartnode
 `rockerpool s s`
-and hopefully it should run this time.  
+一些顺利的话RP服务应该能够正常启动。  
   
 ---
 --by atomicwhale.eth
