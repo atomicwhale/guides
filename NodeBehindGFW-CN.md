@@ -73,8 +73,8 @@
 `sudo systemctl restart docker`  
 
 这是再次试着启动Rocketpool Smartnode
-`rockerpool s s`
-一些顺利的话RP服务应该能够正常启动。  
+`rockerpool s s`  
+一切顺利的话，RP服务应该能够正常启动。  
   
 ---
 --by atomicwhale.eth
