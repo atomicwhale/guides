@@ -7,7 +7,7 @@ Example validator ran during the test: https://holesky.beaconcha.in/validator/15
 
 \* *This guide is based on standard Docker mode.*  
 \**  *This guide is written based on Holešky testnet.*  
-\*** *This instructions were tested on Debian 12 on a Aliyun virtual machine behind the GFW (Feb/2024). YMMV depending on internet connection and how hard GFW wants to f\*k you over.*
+\*** *The instructions were tested on Debian 12 on a Aliyun virtual machine behind the GFW (Feb/2024). YMMV depending on internet connection and how hard GFW wants to f\*k you over.*
 
 ---
 ### Main challenges
