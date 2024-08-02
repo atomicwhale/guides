@@ -1,12 +1,12 @@
 # How to enable mev-boost on Rocketpool Smart Node on Holesky
 ### Adjust BN settings
-Please double check this flag with the BN you are using (I am using Nimbus here)  
 `nano .rocketpool/override/eth2.yml`  
 Add these lines
 ```
     environment:
       - MEV_BOOST_URL=http://mev-boost:18550
 ```
+With thhis seeting, Smartnode will automatically generate the correct flags to enable mev-boost for the BN.  
 ### Add additional mev-boost docker compose settings
 `mev-boost.yml` in the override folder will be ignored by smartnode on holesky, so we need to use one of the containers enabled on holesky.  
 I am using `eth2.yml` here.   
