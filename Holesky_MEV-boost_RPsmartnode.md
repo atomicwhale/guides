@@ -1,5 +1,5 @@
 ### Adjust BN settings
-Please double check this flag with the BN you are using I am using Nimbus here)  
+Please double check this flag with the BN you are using (I am using Nimbus here)  
 `nano .rocketpool/override/eth2.yml`  
 Add these lines
 ```
