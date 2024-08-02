@@ -6,7 +6,7 @@ Add these lines
     environment:
       - MEV_BOOST_URL=http://mev-boost:18550
 ```
-With thhis seeting, Smartnode will automatically generate the correct flags to enable mev-boost for the BN.  
+With these lines added, Smartnode will automatically generate the correct flags for the BN to enable mev-boost.  
 ### Add additional mev-boost docker compose settings
 `mev-boost.yml` in the override folder will be ignored by smartnode on holesky, so we need to use one of the containers enabled on holesky.  
 I am using `eth2.yml` here.   
