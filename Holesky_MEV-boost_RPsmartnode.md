@@ -7,6 +7,7 @@ Add these lines
       - MEV_BOOST_URL=http://mev-boost:18550
 ```
 With these lines added, Smartnode will automatically generate the correct flags for the BN to enable mev-boost.  
+  
 ### Add additional mev-boost docker compose settings
 `mev-boost.yml` in the override folder will be ignored by smartnode on holesky, so we need to use one of the containers enabled on holesky.  
 I am using `eth2.yml` here.   
@@ -38,12 +39,13 @@ services:
 networks:
   net:
 ```
+
 ### Check VC flag is set to use mev-boost
 I recommand to use an external VC (with builderblocks flag enabled) to connect to RP smartnode BN. Check specific flags needed for the specific VC.  
 The VC in RP smartnode will continue to use local blocks because the `externalbuilder` setting is disabled by default.
 
 ### Check mev-boost is working
-`rocketpool s l mev-boost`
+`rocketpool s l mev-boost`  
 You should see the logs of mev-boost showing the relays and listening on the port (18550).  
 
 ----------
