@@ -17,8 +17,9 @@ You should see submitted validator registration in the logs
  `nano lodestar/run.sh`  
  Check this line has been set to:  
  ​`--useProduceBlockV3=true`​  
-5.2 Check /lodestar/run.sh has been change to `builderonly`  
-`  BUILDER_SELECTION="builderonly"`
+5.2 Check /lodestar/run.sh has been change from `builderalways` to `builderonly`  
+`  BUILDER_SELECTION="builderonly"`  
+This is a reccomanded by Lodestar: https://chainsafe.github.io/lodestar/run/validator-management/vc-configuration/
 
 ----------
 - Obol's guide can be found here: https://docs.obol.org/docs/advanced/quickstart-builder-api#getting-started-with-charon--the-builder-api
