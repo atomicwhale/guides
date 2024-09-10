@@ -1,7 +1,7 @@
 ## 1. Check `​.env` file that BUILDER_API has been enabled  
  ​`BUILDER_API_ENABLED=true`  
 ## 2. Check BN is configured to use external builder  
-You BN should be configured with a mwv-boost URL, see obol or specific BN guide  
+You BN should be configured with a mev-boost URL, see obol or specific BN guide  
 If you are running a RP smartnode and have MEV-boost enabled, this should have been set by the smartnode.  
 ## 3. Check MEV-boost is configured correctly  
 3.1 Check mev-boost relays list, see below for an example list  
