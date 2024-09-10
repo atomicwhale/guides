@@ -16,7 +16,7 @@ Add following:
 ```
 services:
   mev-boost:
-    image: flashbots/mev-boost:1.7
+    image: flashbots/mev-boost:1.8
     container_name: rocketpool_mev-boost
     restart: unless-stopped
     ports: ["18550:18550/tcp"]
