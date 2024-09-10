@@ -10,7 +10,7 @@ If you are running a RP smartnode and have MEV-boost enabled, this should have b
 For example
  `​time="2024-07-24T05:50:10.308Z" level=info msg="using 5 relays" version=v1.8​` 
 ## 4. Check Charon logs
- `​docker logs charon-charon-1 |& grep "submitted validator registration"`  
+ `​docker logs <charon-container-name> |& grep "submitted validator registration"`  
 You should see submitted validator registration in the logs
 ## 5. Check VC (lodestar)
 5.1 Your `lodestar/run.sh` should be set to `useProduceBlockV3`
