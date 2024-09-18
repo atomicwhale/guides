@@ -21,7 +21,7 @@
 
 ---
 ### 1. 手动安装 Smartnode
-首先确保你的节点服务器已经做好了安全防护措施，参考RP官方文档：Secure the node，或其他网上教程。  
+首先确保你的节点服务器已经做好了安全防护措施，参考RP官方文档：Secure the node，或其他网上教程  
 第一步，使用一个Github镜像(kkgithub)来下载RP smartnode (cli):  
 `wget https://kkgithub.com/rocket-pool/smartnode-install/releases/latest/download/rocketpool-cli-linux-amd64 -O ~/bin/rocketpool`  
   
@@ -31,15 +31,15 @@
 手动更改安装脚本:  
 `nano install.sh`
   
-用镜像网址替换其中Github网址(此教程编写时， RP smartnode v1.11.7，Github网址位于安装脚本117-119行).  
+用镜像网址替换其中Github网址 (此教程编写时， RP smartnode v1.11.7，Github网址位于安装脚本117-119行)  
 找到其中以`PACKAGE_URL=...`起头的两行, 修改github网址。修改后这两行应该是这样:  
 `   PACKAGE_URL="https://kkgithub.com/...`
   
-保存脚本并退出 (`Ctrl+O` 然后 `Ctrl+X`).  
+保存脚本并退出 (`Ctrl+O` 然后 `Ctrl+X`)  
   
 手动运行更改后的安装脚本:  
 `sudo bash install.sh`  
-*(安装最后如果报错 `stat: cannot statx...`，这个不影响安装，可以忽略。)*
+*(安装最后如果报错 `stat: cannot statx...`，这个不影响安装，可以忽略)*
   
 \*  *__kgithub/kkgithub__ 是一个github 镜像/代理 [GitHub网址](https://github.com/kgithub666/kgithub). 如果觉得它有用，可以考虑支持一下项目方/作者 [About page](https://help.kkgithub.com/donate/).*
 
@@ -51,8 +51,8 @@
 保存设置并退出
 在这里你可以先试着运行一下smartnode，可以选择自动启动Smartnode，或者手动启动smartnode服务:   
 `rockerpool s s`  
-如果一切运行顺利，服务启动成功，那恭喜你，Rocketpool Smartnode已经可以正常运行，你不需要教程以下的内容了。  
-如果启动失败，或者下载进度停滞不前，那大概率是因为Docker Hub (hub.docker.com)被墙.  
+如果一切运行顺利，服务启动成功，那恭喜你，Rocketpool Smartnode已经可以正常运行，你不需要教程以下的内容了  
+如果启动失败，或者下载进度停滞不前，那大概率是因为Docker Hub (hub.docker.com)被墙  
   
 这时你需要配置一个docker hub镜像。编辑Docker设置文件:  
 `sudo nano /etc/docker/daemon.json`  
@@ -74,7 +74,7 @@
 
 这是再次试着启动Rocketpool Smartnode
 `rockerpool s s`  
-一切顺利的话，RP服务应该能够正常启动。  
+一切顺利的话，RP服务应该能够正常启动  
   
 ---
 --by atomicwhale.eth
