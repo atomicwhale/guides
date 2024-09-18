@@ -1,4 +1,7 @@
 # How to enable mev-boost on Rocketpool Smart Node on Holesky
+The `mev-boost` container and relervant flags are disabled by the Rocketpool Smart Node when holesky testnet is selected. The guide here adds back the relervant flags for BN and add the require `mev-boost` service to docker compose to one of the existing override file.  
+After applying these changes, the VC included in Rocketpool Smart Node will continue to propose normally (i.e. proposing vanila blocks without using mev-boost), because the flags for builder bolcks is not supplied by default. External VCs using the endpoints provided by Rocketpool Smart Node can be set to enable/disable mev-boost by the user.
+
 ### Adjust BN settings
 `nano .rocketpool/override/eth2.yml`  
 Add these lines
@@ -41,7 +44,7 @@ networks:
 ```
 
 ### Check VC flag is set to use mev-boost
-I recommand to use an external VC (with builderblocks flag enabled) to connect to RP smartnode BN. Check specific flags needed for the specific VC.  
+It is recommanded to use an external VC (with builderblocks flag enabled) to connect to RP smartnode BN. Check specific flags needed for the specific VC.  
 The VC in RP smartnode will continue to use local blocks because the `externalbuilder` setting is disabled by default.
 
 ### Check mev-boost is working
