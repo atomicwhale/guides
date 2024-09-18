@@ -23,7 +23,8 @@ You should see submitted validator registration in the logs
 This is a reccomanded by Lodestar: https://chainsafe.github.io/lodestar/run/validator-management/vc-configuration/
 
 ---
---by atomicwhale.eth
+--by atomicwhale.eth  
+
 ---
 - Obol's guide can be found here: https://docs.obol.org/docs/advanced/quickstart-builder-api#getting-started-with-charon--the-builder-api
 - Relays list (mainnet)
