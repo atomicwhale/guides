@@ -1,3 +1,4 @@
+# Checklist for setting up mev-boost on an Obol node
 ## 1. Check `​.env` file that BUILDER_API has been enabled  
  ​`BUILDER_API_ENABLED=true`  
 ## 2. Check BN is configured to use external builder  
