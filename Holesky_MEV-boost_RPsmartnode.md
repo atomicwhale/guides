@@ -1,4 +1,7 @@
-# How to enable mev-boost on Rocketpool Smart Node on Holesky
+# How to enable mev-boost on Rocketpool Smart Node on Holesky (Deprecated)
+The following guide has been deprecated since Rocketpool smart node (from v1.13.10) supports MEV-boost on Holseky now
+
+---------------------
 The `mev-boost` container and relervant flags are disabled by the Rocketpool Smart Node when holesky testnet is selected. The guide here adds back the relervant flags for BN and add the require `mev-boost` service to docker compose to one of the existing override file.  
 After applying these changes, the VC included in Rocketpool Smart Node will continue to propose normally (i.e. proposing vanila blocks without using mev-boost), because the flags for builder bolcks is not supplied by default. External VCs using the endpoints provided by Rocketpool Smart Node can be set to enable/disable mev-boost by the user.
 
